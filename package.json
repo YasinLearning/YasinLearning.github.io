@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,13 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/node": "^12.7.8",
     "eslint": "8.39.0",
     "eslint-config-next": "13.3.1",
     "next": "13.3.1",
+    "next-gallery": "^1.2.1",
+    "prop-types": ">=15.5.6",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "@types/node": "^12.7.8",
-    "prop-types": ">=15.5.6",
     "react-imgix": "^9.0.1",
     "typescript": "^3.6.3"
   }
