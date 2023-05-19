@@ -6,7 +6,7 @@ import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
+ function Home() {
   return (
     <>
       <Head>
@@ -118,7 +118,7 @@ function Car(img) {
 }
 
 
-function Gallery() {
+export default function Gallery() {
   var images = [
     "car 1.jpg",
     "car 2.jpg",
