@@ -129,17 +129,6 @@ export default function Gallery() {
   ]
   return (
   <div className="gallery">
-    {images.map(image => (
-      <Imgix
-        sizes="(min-width: 960px) 33vw, (min-width: 640px) 50vw, 100vw"
-        src={image}
-        key={image}
-        imgixParams={{
-          fit: "crop",
-          fm: "jpg"
-        }}
-        width="600"
-        height="600"
-      />
-    ))}
-  </div>)}
+    <img src="car 4.jpg"/>
+    </div>
+    )}
